@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: fastapi-chart
-      reconcileStrategy: ChartVersion
+      #reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
         name: fastapi-repo-git
